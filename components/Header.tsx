@@ -53,6 +53,8 @@ export default function Header({children, className}: {children: React.ReactNode
                         >
                             Sign up
                         </Button>
+                    </div>
+                    <div>
                         <Button
                             onClick={() => {}}
                             className="bg-white px-6 py-2"
