@@ -16,7 +16,7 @@ export default function ListItem({image, name, href}:{image: string, name: strin
         className="relative flex group items-center rounded-md overflow-hidden gap-x-4 bg-neutral-100/10 hover:bg-neutral-100/20 transition pr-4"
         onClick={onClick}
     >
-        <div className ="relative.min-h-[64px].min-w-[64px]" >
+        <div className ="relative min-h-[64px] min-w-[64px]" >
             <Image
                 className="object-cover"
                 fill
